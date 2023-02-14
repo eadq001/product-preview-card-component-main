@@ -29,6 +29,10 @@
 
 }
 
+.mobile-design{
+    display: none;
+}
+
 .grid-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -134,3 +138,5 @@ a,
 .attribution {
     font-size: 14px;
 }
+
+@media (max-w)
