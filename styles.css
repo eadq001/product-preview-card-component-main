@@ -40,7 +40,7 @@ body {
 .grid-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 700px;
+    max-width: 700px;
     height: 500px;
     background-color: var(--White);
     border-radius: 1rem;
@@ -48,7 +48,7 @@ body {
 }
 
 .grid-items img {
-    width: 100%;
+   max-width: 100%;
 }
 
 .grid-items h1 {
@@ -69,7 +69,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
-    width: 100%;
+    max-width: 100%;
 }
 
 .product__type {
@@ -124,11 +124,11 @@ a,
 }
 
 .add-to-cart-container img {
-    width: 20px;
+    max-width: 20px;
 }
 
 .add-to-cart {
-    width: 100%;
+    max-width: 100%;
     background-color: var(--Dark-cyan);
     padding: 1rem 1rem;
     border-radius: 1rem;
@@ -173,7 +173,7 @@ a,
 
     .grid-items {
         height: fit-content;
-        width: 100%;
+        max-width: 100%;
         grid-template-columns: 1fr;
         border-radius: 1rem;
         gap: 1rem;
